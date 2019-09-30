@@ -4,3 +4,10 @@
 
 a = 11
 b = 42
+
+c = b
+b = a
+a = c
+
+print(a)
+print(b)
